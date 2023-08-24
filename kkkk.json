@@ -13,23 +13,23 @@
     "description": "<strong>Best overall model</strong><br><ul><li>Instruction based<li>Gives very long responses<li>Finetuned with 1K high-quality synthetic data<li>Trained by YAIT Inc. and could be integrated into your UX as SynthAI Jets®<li>Find more details on https://yait.io/</ul"
   },
   {
-    "order": "c",
+    "order": "b",
     "md5sum": "6a087f7f4598fad0bb70e6cb4023645e",
-    "name": "Mini Orca (Small)",
+    "name": "Mini Orca",
     "filename": "orca-mini-3b.ggmlv3.q4_0.bin",
     "filesize": "1928446208",
     "requires": "2.4.7",
     "ramrequired": "4",
     "parameters": "3 billion",
     "quant": "q4_0",
-    "type": "OpenLLaMa",
+    "type": "LLaMa",
     "description": "<strong>Small version of new model with novel dataset</strong><br><ul><li>Instruction based<li>Explain tuned datasets<li>Orca Research Paper dataset construction approaches<li>Licensed for commercial use</ul>",
     "url": "https://huggingface.co/TheBloke/orca_mini_3B-GGML/resolve/main/orca-mini-3b.ggmlv3.q4_0.bin",
     "promptTemplate": "### User:\n%1\n### Response:\n",
     "systemPrompt": "### System:\nYou are an AI assistant that follows instruction extremely well. Help as much as you can.\n\n"
   },
   {
-    "order": "u",
+    "order": "c",
     "md5sum": "379ee1bab9a7a9c27c2314daa097528e",
     "disableGUI": "true",
     "name": "YAIT_DEV_SMALL (Beta)",
@@ -45,7 +45,7 @@
     "description": "<strong>Trained on subset of the Stack</strong><br><ul><li>Code completion based</ul>"
   },
   {
-    "order": "w",
+    "order": "d",
     "md5sum": "f981ab8fbd1ebbe4932ddd667c108ba7",
     "disableGUI": "true",
     "name": "YAIT_DEV",
@@ -61,7 +61,7 @@
     "description": "<strong>Trained on subset of the Stack</strong><br><ul><li>Code completion based</ul>"
   },
   {
-    "order": "w",
+    "order": "e",
     "md5sum": "c7ebc61eec1779bddae1f2bcbf2007cc",
     "name": "LlaMa-2-7B",
     "filename": "llama-2-7b-chat.ggmlv3.q4_0.bin",
